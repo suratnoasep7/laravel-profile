@@ -1,0 +1,589 @@
+body {
+    overflow-x: hidden;
+}
+
+/* style css custome */
+
+
+.font-cs-disclamer {
+    font-size: 12px;
+    margin: 0;
+}
+
+p {
+    font-size: 14px;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.h-description-human {
+    font-size: 16px;
+    color: black;
+}
+
+#breadcrumb li.bg-success-session  {
+    background-color: #BBE768;
+    color: #fff;
+}
+
+.head-label-diagram {
+    font-size: 16px;
+    color: black;
+}
+.color-label-danger {
+    color: #B10000;
+}
+
+.blue {
+ background-color: #3f51b5;
+}
+
+.bg-paraf-disclamer {
+    background-color: #EBEBEB;
+}
+
+.paraf-disclamer {
+    display: block;
+    padding: 8px 28px 6px;
+    border: 1px solid white;
+}
+
+.table-td {
+    padding: 5px;
+}
+
+.font-tr-size {
+    font-size: 12px;
+}
+
+
+.label-select-cs-input {
+    font-size: 12px;
+    color: black;
+    font-weight: 400;
+}
+
+.heading-test {
+    font-size: 14px;
+    /* font-family: 'Droid Sans', Arial, sans-serif; */
+    padding-left:1rem;
+    color:#B10000;
+}
+
+.list-font-cs-text {
+    font-size: 12px;
+}
+
+.size-input-cs-radio {
+    font-size: 11px;
+}
+
+.heading-two-danger {
+
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+
+  /* Style the buttons inside the tab */
+  .tab p {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    padding: 10px 30px 0px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+
+
+.th-cs-table {
+    font-size: 12px;
+}
+
+.td-cs-table {
+    font-size: 12px;
+    width: 400px;
+}
+
+.bg-cs-gray {
+    background-color: rgb(220, 220, 220);
+    padding: 10px;
+}
+
+.font-cs-text {
+    font-size: 12;
+    /* font-family: 'Droid Sans', Arial, sans-serif; */
+    color: black;
+}
+
+.label-cs-input {
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+    /* font-family: 'Droid Sans', Arial, sans-serif; */
+}
+
+.field-cs-input {
+    font-size: 13px;
+    color: black;
+    /* font-family: 'Droid Sans', Arial, sans-serif; */
+}
+
+.input-cs {
+    font-size: 12px;
+    border-radius: 0;
+    /* font-family: 'Droid Sans', Arial, sans-serif; */
+}
+/* close css custome */
+
+
+.title {
+    color:#B80000;
+    text-shadow: 2px 2px 1px rgb(218, 218, 218);
+    text-align:center;
+}
+.sub-title {
+    text-align:center;
+    color:#999;
+    font-size:13px;
+    margin-bottom:10px;
+    /* font-family: 'Times New Roman', Times, serif */
+}
+.title-2 {
+    text-align: center;
+    font-size:16px;
+    margin-top:0px;
+    /* font-family: 'Times New Roman', Times, serif */
+}
+.header-section {
+    padding-top: 20px;
+}
+#breadcrumb {
+    padding: 2px;
+    font-size: 10px !important;
+}
+
+#breadcrumb * {
+    font-size: 11px !important;
+}
+
+#breadcrumb li.bg-active-session {
+    background-color: #FF9815;
+    color: white;
+    background: #FF9815 url('../../breadcrumb-active.png') no-repeat right;
+}
+
+#breadcrumb li {
+    /* font-family: 'PTSansNarrowRegular', Arial, sans-serif; */
+    font-size: 12px;
+    list-style: none;
+    width: 16%;
+    text-align: center;
+    padding-top: 5px;
+    height: 27px;
+    text-indent: -10px;
+    display: inline-block;
+    margin: -1.5px;
+    width: 16.8%;
+    background-color: #ffe1e6;
+    color: #000000;
+    background: #ffe1e6 url('../../breadcrumb.png') no-repeat right;
+}
+
+#breadcrumb ul {
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid #FFF;
+    white-space: nowrap;
+}
+#questionnaire #top-line {
+    margin: 0 0 20px;
+}
+#top-line {
+    background: url('../../line-1.png') no-repeat center center;
+    margin: 0 0 27px;
+    opacity:1;
+    margin-top :10px;
+}
+#top-line, #bottom-line, hr.bottom-separator, hr.contact-separator {
+    height: 12px;
+    border: 0;
+}
+#breadcrumb li.last {
+    background-image: none !important;
+    width: 17%;
+}
+#main-wrapper #title h1 {
+    font-size: 44px;
+    line-height: 50px;
+    text-align: center;
+}
+#title h1 {
+    /* font: normal 53px/1em 'Droid Serif', "Times New Roman", Times, serif; */
+    letter-spacing: -2px;
+    margin: 0;
+}
+#title p {
+    /* font: italic 17px/1.5em 'Droid Serif', "Times New Roman", Times, serif; */
+    margin: 11px 0 0 0;
+    text-align: center;
+}
+#questionnaire p {
+    margin: 0 0 12px;
+}
+#questionnaire #bottom-line {
+    margin: 20px 0 0 0;
+}
+
+#bottom-line {
+    background: url('../../line-2.png') no-repeat center center;
+    margin: 20px 0 0 0;
+    opacity:1;
+}
+#top-line, #bottom-line, hr.bottom-separator, hr.contact-separator {
+    height: 12px;
+    border: 0;
+}
+#questionnaire ul.list {
+    padding-left: 18px;
+}
+#questionnaire ul {
+    margin: 0 0 30px;
+    padding: 0;
+    padding-left: 1px;
+}
+.general_instructions {
+    font-size: 14px;
+    line-height: 25px;
+}
+#main-wrapper p {
+    line-height: 25px;
+}
+.green {
+    background: #1b9927;
+}
+
+#main-wrapper .submit-button {
+    text-align: center;
+    margin: 45px 0 30px;
+}
+#main-wrapper .submit-button span {
+    padding: 8px 28px 6px;
+    font-size: 16px;
+    line-height: 22px;
+}
+.button span {
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    padding: 4px 12px;
+    line-height: 1em;
+    border: 1px solid #fff;
+}
+form hr, hr.dashed {
+    clear: both;
+    margin: 0;
+    border-top: 1px dashed #d8d8d8;
+}
+#breadcrumb li.active {
+    color: #FFF;
+    background: #FF9815 url(/static/img/breadcrumb-active.png?119d7db8ff60) no-repeat right;
+}
+
+#main-wrapper.identity #list {
+    list-style: none;
+    overflow: hidden;
+}
+#main-wrapper #list {
+    margin: 0 0 30px;
+    padding: 0;
+    padding-left: 1px;
+}
+
+#main-wrapper.identity form #list li {
+    float: left;
+    line-height: 25px;
+    width: 200px;
+}
+
+.guide-title {
+    /* font-family: 'Droid Sans', Arial, sans-serif; */
+    color: #B10000;
+}
+
+.question-table tr td {
+    vertical-align: middle;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.quiz-content {
+    font-size: 14px;
+}
+
+#breadcrumb-box * {
+    font-size: 11px !important;
+}
+
+#breadcrumb-box .clearfix {
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    border: 1px transparent solid;
+    flex-wrap: wrap;
+}
+
+#breadcrumb-box ul li {
+    list-style: none;
+    flex: 1;
+    padding: 10px;
+    white-space: nowrap;
+    text-align: center;
+    position: relative;
+    margin-right: 18px;
+}
+
+.breadcrumb-list {
+    background-color: #6BCB77;
+    color: #ffffff;
+    z-index: 2;
+}
+
+.breadcrumb-list::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    border-color: transparent #6BCB77 transparent transparent;
+    border-width: 0px 26px 26px 0;
+    border-style: solid;
+    transform: rotate(45deg);
+    right: -13px;
+    z-index: 9999 !important;
+}
+
+.breadcrumb-list.active {
+    background-color: #ff9815;
+    color: #ffffff;
+}
+
+.breadcrumb-list.active::before {
+    border-color: transparent #ff9815 transparent transparent;
+}
+
+.breadcrumb-list.active~li {
+    background-color: #ffe1e6;
+    color: #000000;
+}
+.breadcrumb-list.active~li::before {
+    border-color: transparent #ffe1e6 transparent transparent;
+}
+
+
+#psp-chart {
+    overflow: hidden;
+}
+
+#pilar {
+    float: left;
+    position: relative;
+    height: 450px;
+    width: 288px;
+}
+
+#pilar,
+#comparison_psp {
+    margin: 0 0 35px;
+}
+
+#psp-chart #pilar #bar {
+    position: absolute;
+    bottom: 70px;
+    left: 220px;
+    width: 35px;
+    height: 333px;
+    background: url("../../image-chart/new_bar.png");
+}
+
+#psp-chart #legend {
+    margin-top: 58px;
+    float: left;
+}
+
+#psp-chart #legend ul {
+    padding: 0px;
+    margin-bottom: 100px;
+    list-style: none;
+}
+
+#questionnaire ul {
+    margin: 0 0 30px;
+    padding: 0;
+    padding-left: 1px;
+}
+
+#psp-chart #legend ul li {
+    font-size: 20px;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+#hasil-psp li {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#psp-chart #legend .high {
+    background: #582977;
+}
+
+#psp-chart #legend .high-average {
+    background: #7f40a0;
+}
+
+#psp-chart #legend .average {
+    background: #ac68cc;
+}
+
+#psp-chart #legend .low-average {
+    background: #c18eda;
+}
+
+#psp-chart #legend .low {
+    background: #d6b4e7;
+}
+
+
+
+#psp-chart #legend li div {
+    margin-right: 10px;
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+}
+
+/* intelectual */
+#psp-chart #pilar #bar-0 {
+    z-index: 3;
+}
+
+#psp-chart #pilar .intellectual-0 {
+    background: url("../../image-chart/intellectual-0.png");
+}
+
+#psp-chart #pilar .chart {
+    position: absolute;
+    bottom: 0px;
+    width: 191px;
+}
+
+/* social */
+
+#psp-chart #pilar #bar-1 {
+    z-index: 4;
+}
+
+#psp-chart #pilar .social-1 {
+    background: url("../../image-chart/social-1.png");
+}
+
+#psp-chart #pilar .chart {
+    position: absolute;
+    bottom: 0px;
+    width: 191px;
+}
+
+/* spiritual */
+
+#psp-chart #pilar #bar-2 {
+    z-index: 2;
+}
+
+#psp-chart #pilar .spiritual-2 {
+    background: url("../../image-chart/spiritual-2.png");
+}
+
+#psp-chart #pilar .chart {
+    position: absolute;
+    bottom: 0px;
+    width: 191px;
+}
+
+/* physical */
+
+#psp-chart #pilar #bar-3 {
+    z-index: 1;
+}
+
+#psp-chart #pilar .physical-3 {
+    background: url("../../image-chart/physical-3.png");
+}
+
+#psp-chart #pilar .chart {
+    position: absolute;
+    bottom: 0px;
+    width: 191px;
+}
+
+/* bar bottom */
+#psp-chart #pilar #bar-bottom {
+    z-index: 9;
+    width: 191px;
+    position: absolute;
+    height: 72px;
+    bottom: 0px;
+    background: url("../../image-chart/bar-bottom.png");
+}
+
+/* pillar */
+#psp-chart #pilar .score-1 {
+    height: 150px !important;
+}
+
+#psp-chart #pilar .score-2 {
+    height: 182px !important;
+}
+
+#psp-chart #pilar .score-3 {
+    height: 215px !important;
+}
+
+#psp-chart #pilar .score-4 {
+    height: 247px !important;
+}
+
+#psp-chart #pilar .score-5 {
+    height: 280px !important;
+}
+
+#psp-chart #pilar .score-6 {
+    height: 312px !important;
+}
+
+#psp-chart #pilar .score-7 {
+    height: 343px !important;
+}
+
+#psp-chart #pilar .score-8 {
+    height: 375px !important;
+}
+
+#psp-chart #pilar .score-9 {
+    height: 410px !important;
+}
+
+#psp-chart #pilar .score-10 {
+    height: 429px !important;
+}
+
+#summaryForm * {
+    font-size: 1rem !important;
+}
